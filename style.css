@@ -1,0 +1,75 @@
+body
+{
+	background-color: grey;
+}
+
+#strona
+{
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo
+{
+	letter-spacing: 6px;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	padding: 20px;
+}
+
+#menu
+{
+	margin-top: 20px;
+	background-color: #303030;
+	height: 57px;
+	
+}
+
+.opcja
+{
+	float: left;
+	min-width: 50px;
+	font-size: 23px;
+	padding: 15px;
+	border-right: 2px inline #44444444;
+	color: #cccccc;
+	
+}
+
+.opcja:hover
+{
+	background-color: black;
+	cursor: pointer;
+	color: white;
+	
+}
+
+#content
+{
+	margin-top: 20px;
+	background-color: green;
+	text-align: justify;
+	font-size:20px;
+	padding: 50px;
+	
+}
+
+#stopka
+{
+	text-align: justify;
+	background-color: black;
+	color: white;
+	padding: 15px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#tytul
+{
+	font-size: 45px;
+	text-align: center;
+	height: 80px;
+	
+}
