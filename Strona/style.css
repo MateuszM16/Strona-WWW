@@ -1,6 +1,6 @@
 body
 {
-	background-color: grey;
+	background-color: #737373;
 }
 
 #strona
@@ -21,7 +21,7 @@ body
 
 #menu
 {
-	margin-top: 20px;
+	margin-top: 10px;
 	background-color: #303030;
 	height: 57px;
 	
@@ -30,11 +30,13 @@ body
 .opcja
 {
 	float: left;
-	min-width: 50px;
+	min-width: 90px;
 	font-size: 23px;
 	padding: 15px;
-	border-right: 2px inline #44444444;
+	border-right: 2px dotted #444444;
+	opacity: 0.8;
 	color: #cccccc;
+	text-align: center;
 	
 }
 
@@ -42,7 +44,7 @@ body
 {
 	background-color: black;
 	cursor: pointer;
-	color: white;
+	color: #ff1a1a;
 	
 }
 
@@ -63,21 +65,23 @@ body
 	color: white;
 	margin-bottom: 20px;
 	margin-top: 20px;
-	padding: 15px;
 }
 
 #tekst
 {
-	width: 800px;
+	width: 780px;
 	float: left;
 	font-size: 16px;
+	padding: 15px;
+	border-right: 2px dotted #444444;
 }
 
 #zegar
 {
 	float: left;
-	width: 170px;
+	width: 158px;
 	font-size: 18px;
+	padding: 15px;
 }
 
 #tytul
@@ -85,5 +89,5 @@ body
 	font-size: 45px;
 	text-align: center;
 	height: 80px;
-	
+	letter-spacing: 5px;
 }
