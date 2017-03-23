@@ -30,7 +30,7 @@ body
 .opcja
 {
 	float: left;
-	min-width: 90px;
+	min-width: 106px;
 	font-size: 23px;
 	padding: 15px;
 	border-right: 2px dotted #444444;
@@ -52,10 +52,31 @@ body
 {
 	margin-top: 20px;
 	background-color: green;
-	text-align: justify;
-	font-size:20px;
+	text-align: center;
+	font-size:22px;
 	padding: 50px;
-	
+}
+
+#tytul
+{
+	font-size: 45px;
+	text-align: center;
+	height: 80px;
+	letter-spacing: 5px
+}
+
+#zawartosc_content
+{
+	float:left;
+	width:400px;
+}
+
+#zdj_content
+{
+	float:left;
+	width:450px;
+	margin-left: 40px;
+	text-align: center;
 }
 
 #stopka
@@ -84,10 +105,3 @@ body
 	padding: 15px;
 }
 
-#tytul
-{
-	font-size: 45px;
-	text-align: center;
-	height: 80px;
-	letter-spacing: 5px;
-}
