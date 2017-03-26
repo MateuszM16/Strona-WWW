@@ -30,7 +30,7 @@ body
 .opcja
 {
 	float: left;
-	min-width: 106px;
+	min-width: 90px;
 	font-size: 23px;
 	padding: 15px;
 	border-right: 2px dotted #444444;
@@ -62,21 +62,22 @@ body
 	font-size: 45px;
 	text-align: center;
 	height: 80px;
-	letter-spacing: 5px
+	letter-spacing: 5px;
 }
 
-#zawartosc_content
+#zawartosccontent
 {
 	float:left;
 	width:400px;
+	padding:20px;
 }
 
-#zdj_content
+#zdj
 {
 	float:left;
-	width:450px;
-	margin-left: 40px;
-	text-align: center;
+	width:400px;
+	margin-left: 20px;
+	padding:20px;
 }
 
 #stopka
