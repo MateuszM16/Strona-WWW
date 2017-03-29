@@ -63,6 +63,7 @@ body
 	text-align: center;
 	height: 80px;
 	letter-spacing: 5px;
+	border-bottom: 2px solid #444444;
 }
 
 #zawartosccontent
