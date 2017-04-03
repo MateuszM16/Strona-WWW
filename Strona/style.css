@@ -30,14 +30,14 @@ body
 .opcja
 {
 	float: left;
-	min-width: 90px;
+	min-width: 107px;
 	font-size: 23px;
 	padding: 15px;
 	border-right: 2px dotted #444444;
 	opacity: 0.8;
 	color: #cccccc;
 	text-align: center;
-	
+
 }
 
 .opcja:hover
@@ -81,6 +81,13 @@ body
 	padding:20px;
 }
 
+#dowakacji
+{
+	font-size: 44px;
+	color: #800000;
+	
+}
+
 #stopka
 {
 	text-align: justify;
@@ -106,4 +113,5 @@ body
 	font-size: 18px;
 	padding: 15px;
 }
+
 
