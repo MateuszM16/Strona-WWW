@@ -99,7 +99,7 @@ body
 
 #tekst
 {
-	width: 780px;
+	width: 770px;
 	float: left;
 	font-size: 16px;
 	padding: 15px;
@@ -109,7 +109,7 @@ body
 #zegar
 {
 	float: left;
-	min-width: 158px;
+	width: 168px;
 	font-size: 18px;
 	padding: 15px;
 }
