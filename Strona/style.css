@@ -99,19 +99,20 @@ body
 
 #tekst
 {
-	width: 770px;
+	width: 750px;
 	float: left;
 	font-size: 16px;
 	padding: 15px;
-	border-right: 2px dotted #444444;
 }
 
 #zegar
 {
 	float: left;
-	width: 168px;
+	border-left: 2px dotted #444444;
+	min-width: 168px;
 	font-size: 18px;
 	padding: 15px;
+	text-align: right;
 }
 
 
