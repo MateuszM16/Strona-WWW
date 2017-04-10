@@ -4,7 +4,8 @@
 <HEAD>
 
 	<LINK rel="stylesheet" href="style.css" type="text/css" />
-	<script type="text/javascript" src="skrypty/timer.js"></script>
+	
+	<? include('skrypty/timer.php'); ?>
 	
 	<META charset="utf-8"/>
 	<TITLE>STRONA O MNIE</TITLE>
@@ -24,12 +25,12 @@
 		</DIV>
 		
 		<DIV id="menu">
-			<A href="index.html"> <DIV class="opcja">Strona Główna</DIV> </A>
-			<A href="1.html"> <DIV class="opcja">Zainteresowania</DIV> </A>
-			<A href="2.html"> <DIV class="opcja">Szkoła</DIV> </A>
-			<A href="3.html"> <DIV class="opcja">Plany na przyszłość</DIV> </A>
-			<A href="4.html"> <DIV class="opcja">Gry</DIV> </A>
-			<A href="5.html"> <DIV class="opcja">Wakacje</DIV> </A>
+			<A href="index.php"> <DIV class="opcja">Strona Główna</DIV> </A>
+			<A href="1.php"> <DIV class="opcja">Zainteresowania</DIV> </A>
+			<A href="2.php"> <DIV class="opcja">Szkoła</DIV> </A>
+			<A href="3.php"> <DIV class="opcja">Plany na przyszłość</DIV> </A>
+			<A href="4.php"> <DIV class="opcja">Gry</DIV> </A>
+			<A href="5.php"> <DIV class="opcja">Wakacje</DIV> </A>
 			<DIV style="clear:both;"></DIV>
 		</DIV>
 		
