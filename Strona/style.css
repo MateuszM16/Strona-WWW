@@ -23,20 +23,18 @@ body
 {
 	margin-top: 10px;
 	background-color: #303030;
-	height: 57px;
-	
+	font-size: 23px;
+	text-align: center;
+
 }
 
 .opcja
 {
 	float: left;
-	min-width: 107px;
-	font-size: 23px;
-	padding: 15px;
-	border-right: 2px dotted #444444;
+	width: 20%;
 	opacity: 0.8;
 	color: #cccccc;
-	text-align: center;
+	line-height: 57px;;
 
 }
 
@@ -45,7 +43,15 @@ body
 	background-color: black;
 	cursor: pointer;
 	color: #ff1a1a;
+	height: 57px;
 	
+}
+
+.kropki
+{
+		float: left;
+		border-left: 2px dotted #444444;
+		height: 57px;
 }
 
 #content
@@ -95,23 +101,25 @@ body
 	color: white;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	height: 50px;
 }
 
 #tekst
 {
-	width: 780px;
 	float: left;
 	font-size: 16px;
 	padding: 15px;
-	border-right: 2px dotted #444444;
+
 }
 
 #zegar
 {
-	float: left;
-	min-width: 158px;
+	float: right;
 	font-size: 18px;
 	padding: 15px;
+	text-align:left;
+	border-left: 2px dotted #444444;
+	height: 20px;
 }
 
 

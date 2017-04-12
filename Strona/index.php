@@ -3,6 +3,13 @@
 <HTML lang="pl">
 <HEAD>
 
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="favicon/manifest.json">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+
 	<LINK rel="stylesheet" href="style.css" type="text/css" />
 	
 	<? include('skrypty/timer.php'); ?>
@@ -26,11 +33,10 @@
 		
 		<DIV id="menu">
 			<A href="index.php"> <DIV class="opcja">Strona Główna</DIV> </A>
-			<A href="1.php"> <DIV class="opcja">Zainteresowania</DIV> </A>
-			<A href="2.php"> <DIV class="opcja">Szkoła</DIV> </A>
-			<A href="3.php"> <DIV class="opcja">Plany na przyszłość</DIV> </A>
-			<A href="4.php"> <DIV class="opcja">Gry</DIV> </A>
-			<A href="5.php"> <DIV class="opcja">Wakacje</DIV> </A>
+			<A href="1.php"> <DIV class="opcja">Zainteresowania<DIV class="kropki"></DIV></DIV> </A>
+			<A href="2.php"> <DIV class="opcja">Szkoła<DIV class="kropki"></DIV></DIV> </A>
+			<A href="4.php"> <DIV class="opcja">Gry<DIV class="kropki"></DIV></DIV> </A>
+			<A href="5.php"> <DIV class="opcja">Wakacje<DIV class="kropki"></DIV></DIV> </A>
 			<DIV style="clear:both;"></DIV>
 		</DIV>
 		
