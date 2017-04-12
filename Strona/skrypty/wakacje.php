@@ -1,14 +1,16 @@
-function wakacje()
-	{
-		var dzis = new Date();
-		var dzisx = dzis.getTime();
-	
+<script>
+
+		var dzis = '<?= date('U') ?>';
+		
 		var wydarzenie = new Date(2017,5,23,12);
 		var wydarzeniex = wydarzenie.getTime();
+
+function wakacje()
+	{
 		
-		var czas = wydarzeniex - dzisx;
+		var czas = (wydarzeniex/1000) - dzis;
 		
-		var sekundy = czas/1000;
+		var sekundy = czas;
 		var minuty = sekundy/60;
 		var godziny = minuty/60;
 		var dni = godziny/24;
@@ -24,6 +26,7 @@ function wakacje()
 				
 		var d = Math.floor(dni);
 		
+		dzis++;
 
 		document.getElementById("dowakacji").innerHTML = 
 		 d+" dni "+h+" godzin "+min+ " minut "+ s + " sekund ";
@@ -31,3 +34,5 @@ function wakacje()
 		 setTimeout("wakacje()",1000);
 	
 	}
+	
+</script>

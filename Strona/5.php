@@ -4,9 +4,9 @@
 <HEAD>
 
 	<LINK rel="stylesheet" href="style.css" type="text/css" />
-	<script type="text/javascript" src="skrypty/wakacje.js"></script>
 	
 	<? include('skrypty/timer.php'); ?>
+	<? include('skrypty/wakacje.php'); ?>
 	
 	<META charset="utf-8"/>
 	<TITLE>STRONA O MNIE</TITLE>
