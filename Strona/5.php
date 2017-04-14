@@ -59,7 +59,7 @@
 
 		<DIV id="stopka">
 			<DIV id="tekst">
-				STRONA O MNIE!  WSZELKIE PRAWA ZASTRZEŻONE! 
+				STRONA O MNIE!  WSZELKIE PRAWA ZASTRZEŻONE!  <? include ('licz.txt'); ?>
 			</DIV>
 			
 			<DIV id="zegar">

@@ -13,6 +13,7 @@
 
 	<LINK rel="stylesheet" href="style.css" type="text/css" />
 	
+	<? include ('skrypty/odwiedziny.php'); ?>
 	<? include('skrypty/timer.php'); ?>
 	
 	<META charset="utf-8"/>
@@ -57,7 +58,7 @@
 		
 		<DIV id="stopka">
 			<DIV id="tekst">
-				STRONA O MNIE! WSZELKIE PRAWA ZASTRZEŻONE
+				STRONA O MNIE!  WSZELKIE PRAWA ZASTRZEŻONE!  <? include ('licz.txt'); ?>
 			</DIV>
 			
 			<DIV id="zegar">
