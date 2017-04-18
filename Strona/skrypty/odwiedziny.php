@@ -1,6 +1,6 @@
 <?php
  
-if(!$_COOKIE['mateuszstronaomnie.cba.pl']=="1")
+if(!$_COOKIE['naszastrona']=="1")
 {
 	$plik="licz.txt";
 
@@ -17,6 +17,6 @@ if(!$_COOKIE['mateuszstronaomnie.cba.pl']=="1")
 	flock($file, 3);
 	fclose($file); 
  
-	setcookie("mateuszstronaomnie.cba.pl'","1");
+	setcookie("naszastrona","1");
 }
 ?>
