@@ -61,11 +61,18 @@
 			
 			<DIV style="clear:both;"></DIV>
 			
-		</DIV>
-		
+			</DIV>
+			
 		<DIV id="stopka">
 			<DIV id="tekst">
-				STRONA O MNIE!  WSZELKIE PRAWA ZASTRZEŻONE!  <?php include ('licz.txt'); ?>
+				STRONA O MNIE!  WSZELKIE PRAWA ZASTRZEŻONE!  
+			</DIV>
+			
+			<DIV id="odwiedziny">
+				Liczba odwiedzi: <? include ('licz.txt'); ?>
+			</DIV>
+			
+			<DIV id="online">
 			</DIV>
 			
 			<DIV id="zegar">

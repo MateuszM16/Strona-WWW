@@ -4,17 +4,18 @@
 <HEAD>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicon/favicon-3x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="favicon/manifest.json">
 	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
 
-
 	<LINK rel="stylesheet" href="style.css" type="text/css" />
 	
-	<? include ('skrypty/odwiedziny.php'); ?>
-	<? include('skrypty/timer.php'); ?>
+	<script src="Game/TemplateData/UnityProgress.js"></script>
+	
+	<?php include ('skrypty/odwiedziny.php'); ?>
+	<?php include('skrypty/timer.php'); ?>
 	
 	<META charset="utf-8"/>
 	<TITLE>STRONA O MNIE</TITLE>
@@ -30,7 +31,7 @@
 	<DIV id="strona">
 	
 		<DIV id="logo">	
-		STRONA O MNIE	:)		
+		STRONA O MNIE :)	
 		</DIV>
 		
 		<DIV id="menu">
@@ -43,29 +44,50 @@
 		</DIV>
 		
 		<DIV id="content">
-			<DIV id="tytul">ULUBIONE GRY...</DIV>	
+			
+			<DIV id="tytul">Gra... "The best game"</DIV>
+			
 			</BR>
 			
-			<h2>1. Counter Strike: Global Offensive</h2>
-			<IMG src="img/cs.jpg" width= "500" height= "300"/>
-			</BR> </BR>
-			<h2>2. Grand Theft Auto V</h2> 
-			<IMG src="img/gta.jpg" width= "500" height= "300"/>
-			</BR> </BR>
-			<h2>3. FIFA</h2> 
-			<IMG src="img/fifa.jpg" width= "500" height= "300"/>
-			</BR> </BR>
-			<h2>4. Battlefield 4</h2>
-			<IMG src="img/bf.jpg" width= "500" height= "300"/>
-			</BR> </BR>
-			<h2>5. Forza Horizon 2</h2>
-			<IMG src="img/fh.jpg" width= "500" height= "300"/>
+			<div class="template-wrap clear">
+				<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="900px"></canvas>
+			</div>
+			
+			<script type='text/javascript'>
+			
+				var Module = {
+				TOTAL_MEMORY: 268435456,
+				errorhandler: null,			
+				compatibilitycheck: null,
+				backgroundColor: "#222C36",
+				splashStyle: "Light",
+				dataUrl: "Game/Release/Game.data",
+				codeUrl: "Game/Release/Game.js",
+				asmUrl: "Game/Release/Game.asm.js",
+				memUrl: "Game/Release/Game.mem",
+		  };
+		  
+		</script>
+		
+		<script src="Game/Release/UnityLoader.js"></script>
+		
+		</BR>
+
+		Jeśli gra nie działa może to wynikać z braku wtyczki <A href ="https://ssl-webplayer.unity3d.com/download_webplayer-3.x/UnityWebPlayer64.exe?_ga=1.80946708.2049100968.1492883017"> "Unity Web Player" </A>.
+		Jeśli gra nadal nie działa po zainstalowaniu wtyczki możliwe, że twoja przeglądarka (tak jak Google Chrome) nie obsługują potrzebnej wtyczki.
 			
 		</DIV>
 		
 		<DIV id="stopka">
 			<DIV id="tekst">
-				STRONA O MNIE!  WSZELKIE PRAWA ZASTRZEŻONE!  <? include ('licz.txt'); ?>
+				STRONA O MNIE!  WSZELKIE PRAWA ZASTRZEŻONE!  
+			</DIV>
+			
+			<DIV id="odwiedziny">
+				Liczba odwiedzi: <? include ('licz.txt'); ?>
+			</DIV>
+			
+			<DIV id="online">
 			</DIV>
 			
 			<DIV id="zegar">
