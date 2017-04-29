@@ -49,26 +49,25 @@
 			
 			</BR>
 			
-			<div class="template-wrap clear">
-				<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="900px"></canvas>
-			</div>
-			
+		<div class="template-wrap clear" >
+		  <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="900px"></canvas>
+		  <br><br>
+		  <div class="logo"></div>
+		  <div class="fullscreen"><img src="Game/TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+		</div>
 			<script type='text/javascript'>
-			
-				var Module = {
-				TOTAL_MEMORY: 268435456,
-				errorhandler: null,			
-				compatibilitycheck: null,
-				backgroundColor: "#222C36",
-				splashStyle: "Light",
-				dataUrl: "Game/Release/Game.data",
-				codeUrl: "Game/Release/Game.js",
-				asmUrl: "Game/Release/Game.asm.js",
-				memUrl: "Game/Release/Game.mem",
+		    var Module = {
+			TOTAL_MEMORY: 268435456,
+			errorhandler: null,		
+			compatibilitycheck: null,
+			backgroundColor: "#404040",
+			splashStyle: "Light",
+			dataUrl: "Game/Release/Game.data",
+			codeUrl: "Game/Release/Game.js",
+			asmUrl: "Game/Release/Game.asm.js",
+			memUrl: "Game/Release/Game.mem",
 		  };
-		  
 		</script>
-		
 		<script src="Game/Release/UnityLoader.js"></script>
 		
 		</BR>
@@ -88,6 +87,7 @@
 			</DIV>
 			
 			<DIV id="online">
+				Online: <? include("skrypty/online.php"); ?>
 			</DIV>
 			
 			<DIV id="zegar">

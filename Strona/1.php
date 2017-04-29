@@ -13,8 +13,10 @@
 
 	<LINK rel="stylesheet" href="style.css" type="text/css" />
 	
+	
 	<? include ('skrypty/odwiedziny.php'); ?>
 	<? include('skrypty/timer.php'); ?>
+
 	
 	<META charset="utf-8"/>
 	<TITLE>STRONA O MNIE</TITLE>
@@ -73,6 +75,7 @@
 			</DIV>
 			
 			<DIV id="online">
+				Online: <? include("skrypty/online.php"); ?>
 			</DIV>
 			
 			<DIV id="zegar">

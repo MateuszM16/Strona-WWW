@@ -66,6 +66,7 @@
 			</DIV>
 			
 			<DIV id="online">
+				Online: <? include("skrypty/online.php"); ?>
 			</DIV>
 			
 			<DIV id="zegar">
